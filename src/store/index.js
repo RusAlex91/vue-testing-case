@@ -3,7 +3,7 @@ import Vue from 'vue'
 import Vuex, { Store } from 'vuex'
 
 Vue.use(Vuex)
-
+// Можно разбить на отдельные модули если приложение будет усложнятся
 export default new Vuex.Store({
   state: {
     apiData: null,
